@@ -1,3 +1,5 @@
-def square_array(array)
-  # your code here
-end
+def square_array(square)
+  square.each do |number|
+      puts "The square of number is #{number*number}"
+end 
+end 
